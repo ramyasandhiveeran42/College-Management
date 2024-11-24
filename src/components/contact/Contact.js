@@ -14,8 +14,8 @@ const Contact = () => {
           <p>We would love to hear from you! Whether you have questions about our programs, need assistance, or just want to provide feedback, our team is here to help. Please feel free to reach out to us using the contact form below or through our social media channels.Thank you for considering us, and we look forward to connecting with you soon!</p>
           <ul>
             <li className='contact-item'><img src={phone_icon} alt=''/>contact@gmail.com</li>
-            <li className='contact-item'><img src={mail_icon}/>+1 654 345 765</li>
-            <li className='contact-item'><img src={location_icon}/>Ticel Park taramani</li>
+            <li className='contact-item'><img src={mail_icon} alt=''/>+1 654 345 765</li>
+            <li className='contact-item'><img src={location_icon} alt=''/>Ticel Park taramani</li>
           </ul>
         </div>
         <div className="contact-col">
