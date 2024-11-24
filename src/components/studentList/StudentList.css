@@ -1,0 +1,63 @@
+.student-list {
+    margin: 20px;
+  }
+.student-list h2 {
+   font-size: 19px;
+   margin: 60px 0px 30px 0px;
+   text-align: center;
+   border: 1px solid grey;
+   padding: 10px 0px;
+  }
+  
+  .student-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .student-list th,
+  .student-list td {
+    border: 1px solid gray;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .student-list th {
+    background-color: #ede8e8;
+    font-size: 16px;
+  }
+  
+  .student-list td {
+    font-size: 14px;
+  }
+  
+  .edit-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 15px;
+  }
+  
+  .edit-button:hover {
+    background-color: #45a049;
+  }
+
+  .save-button {
+    padding: 8px 15px;
+    background-color: #992525;
+    color: white; 
+    font-size: 14px;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+  }
+  
+  .save-button:hover {
+    background-color: #550606; 
+    transform: scale(1.05); 
+  }
+  
+  

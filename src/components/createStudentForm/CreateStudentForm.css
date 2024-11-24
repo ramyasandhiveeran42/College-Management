@@ -1,0 +1,46 @@
+.create-student-form {
+    max-width: 500px;
+    margin: 150px auto 40px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .create-student-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #171616;
+    font-size: 18px;
+  }
+  
+  .create-student-form input,
+  .create-student-form select,
+  .create-student-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .create-student-form textarea {
+    height: 80px;
+    resize: none;
+  }
+  
+  .create-student-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .create-student-form button:hover {
+    background-color: #45a049;
+  }
+  

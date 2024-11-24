@@ -1,0 +1,58 @@
+nav{
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    padding: 4px 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1000;
+}
+.logo{
+    width: 100%;
+    max-width: 180px;
+    margin: 15px 0px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+nav li{
+    cursor: pointer;
+    margin: 5px 20px;
+    font-size: 14px;
+    align-items: center;
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(250, 250, 250);
+}
+.dark-nav{
+    background-color: #212EA0;
+    transition: 0.5s;
+}
+.btn{
+    background-color: white;
+    color:#212121 ;
+    border-radius: 30px;
+    font-size: 14px;
+    outline: 0;
+    cursor: pointer;
+    border: 0;
+    padding: 14px 26px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+button a{
+    color: black;
+}
+

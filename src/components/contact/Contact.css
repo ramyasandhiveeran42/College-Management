@@ -1,0 +1,77 @@
+.contact{
+    margin: 100px auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.contact-col{
+    flex-basis: 45%;
+}
+.contact-col h3{
+    text-transform: uppercase;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    margin: 0;
+}
+.contact-col h3 img{
+    width: 100%;
+    max-width: 27px;
+    margin-left: 6px;
+    margin-bottom: 4px;
+}
+.contact-col p{
+    margin-top: 10px;
+     font-size: 14px;
+}
+
+.contact ul li{
+    list-style: none;
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+.contact ul li img{
+    width: 100%;
+    max-width: 24px;
+    margin-right: 18px;  
+}
+.contact form input, .contact form textarea{
+    display: block;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 15px 5px;
+    border-radius: 5px;
+    border: none;
+    resize: none;
+    margin: 10px 0px;
+}
+.contact-col form label{
+    font-size: 14px;
+    padding-top: 20px;
+}
+.contact-col form ::placeholder{
+    font-size: 12px;
+    padding-left: 7px;
+}
+.contact-col .margin{
+    margin-top: 8px;
+}
+.contact-col span{
+    display: block;
+    margin: 20px 0px;
+    font-size: 14px;
+}
+.btn.dark-btn{
+    background-color: #212EA0;
+    margin-top: 40px;
+    color: white;
+}
+.btn.dark-btn:hover{
+    background-color: #192169;
+}

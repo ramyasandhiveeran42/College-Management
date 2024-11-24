@@ -1,0 +1,121 @@
+.student-profile {
+  max-width: 400px;
+  margin: 150px auto 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+.student-profile .student-name{
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.profile-header {
+  text-align: center;
+}
+.student-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.student-name input {
+  font-size: 15px;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: calc(50% - 10px); /* Adjust width for two inputs side by side */
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+.student-name input:focus {
+  outline: none;
+  border-color: red;
+  background-color: #fff;
+}
+.profile-picture {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.profile-details {
+  margin-top: 20px;
+}
+
+.profile-details p {
+  margin: 8px 0;
+  font-size: 16px;
+  color: #555;
+}
+
+.profile-details strong {
+  color: #201f1f;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.profile-details input,
+.profile-details textarea,
+.profile-details select {
+  width: 100%;
+  margin-top: 5px;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #555;
+  background-color: #f9f9f9;
+}
+
+.profile-details input:focus,
+.profile-details textarea:focus,
+.profile-details select:focus {
+  border-color: red;
+  outline: none;
+  background-color: #fff;
+}
+
+.edit-profile-btn{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #212EA0;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.save-profile-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #8f212e;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.edit-profile-btn:hover {
+  background-color: #0f1972;
+}
+.save-profile-btn:hover{
+  background-color: #62151e;
+}

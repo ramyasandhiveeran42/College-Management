@@ -1,0 +1,22 @@
+.footer{
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid black;
+     padding: 20px 0;
+     font-weight: 700;
+     margin-top: 70px;
+     padding-left: 10%;
+     padding-right: 10%;
+}
+.footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+.footer li{
+    margin: 0px 7px;
+    font-size: 13px;
+}
